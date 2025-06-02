@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//Velocity checker
 public class ConstantVelocity : MonoBehaviour
 {
     [SerializeField] float xVelo = 14.14214f;
     [SerializeField] float yVelo = 14.14214f;
     Rigidbody2D rigidbody;
+    Rigidbody2D rb;
     int maxCollisionCount = 10;
     int collisionCount = 0;
     private void Awake()

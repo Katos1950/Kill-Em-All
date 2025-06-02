@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//Enemy Script
 public class Enemy : MonoBehaviour
 {
     [SerializeField] ParticleSystem bloodSpill;
     [SerializeField] AudioClip deathSFX;
     GameManager gameManager;
+    GameManager gm;
 
     private void Start()
     {
